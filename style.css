@@ -489,6 +489,22 @@ letter-spacing: -0.25px;
 margin-top: 5px;
 margin-left: -20px;
 }
+.hero-section:hover{
+    transform: scale(1.05);
+}
+.card1:hover{
+    transform: scale(1.2);
+    border: 1px solid #69697b
+}
+.card1>button:hover{
+    color: white;
+    background-color: #F94A3D;
+}
+.option>p:hover{
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+}
 
 @media screen and (max-width:900px) {
     .nav-cent>a{
@@ -576,20 +592,4 @@ margin-left: -20px;
         align-items: start;
 
     }
-}
-.hero-section:hover{
-    transform: scale(1.05);
-}
-.card1:hover{
-    transform: scale(1.2);
-    border: 1px solid #69697b
-}
-.card1>button:hover{
-    color: white;
-    background-color: #F94A3D;
-}
-.option>p:hover{
-    color: blue;
-    text-decoration: underline;
-    cursor: pointer;
 }
